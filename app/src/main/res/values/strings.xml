@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">DjvuReader</string>
+    <string name="title_activity_navigation__drawer">Djvu</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="folder">Folder</string>
+    <string name="parentDirectory">Parent Directory</string>
+    <string name="fileSize">File Size</string>
+    <string name="currentDir">Current Dir</string>
+</resources>

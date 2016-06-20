@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.example.fouad.newtest.DJVU"
+style="@style/Animation.AppCompat.DropDownUp"
+android:background="@android:color/holo_blue_dark"
+android:clickable="false">
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="DJVU READER"
+    android:id="@+id/textView"
+    android:textColor="@android:color/background_light"
+    android:textStyle="bold"
+    android:textSize="40dip"
+    android:layout_marginTop="94dp"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="manipulate DJVU file formats "
+    android:id="@+id/textView2"
+    android:textSize="18dip"
+    android:layout_marginTop="48dp"
+    android:textColor="#ffffffff"
+    android:layout_below="@+id/textView"
+    android:layout_centerHorizontal="true"
+    android:autoText="false" />
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Try App"
+    android:id="@+id/button2"
+    android:layout_marginTop="90dp"
+    android:textSize="20dip"
+    android:layout_below="@+id/textView2"
+    android:layout_alignEnd="@+id/textView"
+    android:layout_alignStart="@+id/textView"
+    />
+
+</RelativeLayout>
